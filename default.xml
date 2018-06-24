@@ -4,5 +4,8 @@
   <default remote="origin" revision="i4u/hndtools-arm-linux/v2.6.36"/>
 
   <project path="build" name="buildroot"/>
+  <project path="build/support/extra" name="buildroot_support_extra" revision="i4u/master">
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+  </project>
   <project path="vendor/broadcom/buildroot" name="vendor_broadcom_buildroot_br-external"/>
 </manifest>
