@@ -7,5 +7,5 @@
   <project path="build/support/extra" name="buildroot_support_extra" revision="659b5337974660da7d3c1142aef458866fe2a480" upstream="i4u/master">
     <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
   </project>
-  <project path="vendor/broadcom/buildroot" name="vendor_broadcom_buildroot_br-external"/>
+  <project path="vendor/broadcom/build" name="vendor_broadcom_buildroot_br-external"/>
 </manifest>
