@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="."/>
+  <remote name="origin" fetch="." review="https://review.gerrithub.io"/>
   <default remote="origin" revision="i4u/hndtools-arm-linux/v2.6.36"/>
 
   <project path="build" name="buildroot"/>
