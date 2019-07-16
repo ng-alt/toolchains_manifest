@@ -17,7 +17,7 @@ It's easy to download the [git-repo](https://gerrit.googlesource.com/git-repo)
 project with Google [`repo`](https://dl-ssl.google.com/dl/googlesource/git-repo/repo).
 
 ```bash
-$ repo init -u git@github.com:ng-merl/toolchains_manifest -u i4u/hndtools-arm-linux/v2.6.36
+$ repo init -u git@github.com:ng-alt/toolchains_manifest -u i4u/hndtools-arm-linux/v2.6.36
 $ repo sync
 ```
 
